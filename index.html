@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="application-name" content="DESCRIPCION DE CONALEP 153"/>
+    <meta name="description" content="LOS TIPOS DE BORDES QUE SE PUEDEN REALIZAR AL TEXTO CON CSS"/>
+    <meta name="keywords" content="BORDES REDONDOS, SOMBRAS, DEGRADADOS, TRANSCCION, EFECTOS DINAMICOS, TIPOS DE FUENTE"/>
+    <meta name="author" content="ALFONSO PÉREZ MANILLA, alfonso_sonic10@outlook.com"/>
+    <meta name="copyrigth" content="CONALEP 153"/>
+    <title>Figuras</title>
+    <link rel="stylesheet" href="estilo1.css">
+    <link rel="shortcut icon" href="1.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  </head>
+  <script>
+      $(document).ready(function(){
+        $('.zoom').hover(function() {
+        $(this).addClass('transition');
+      }, function() {
+        $(this).removeClass('transition');
+      });
+    });
+  </script>
+  <body>
+    <header class="cabecera">
+      <h1 style="text-align:center">Cuadrado y Circulo</h1>
+      <h2 style="text-align:center">Uso de transiciones</h2><br><br><br>
+    </header>
+    <section class="main">
+      <section class="articles">
+        <article>
+          <div class=circulo>
+            <p><br><br> Cuadrado</p>
+          </div>
+          <div class=cuadrado>
+            <p><br><br> Circulo</p>
+          </div>
+        </article>
+        
+      </section>
+  </body>
+  <footer>
+    <div class="container-footer">
+      <div class="footer">
+        <div class="copyright">
+          © 2018-2019 Todos los Derechos Reservados | <a>ALFONSO PÉREZ MANILLA CONALEP 153 TEZIUTLÁN</a>
+        </div>  
+      </div>
+    </div>
+  </footer>
+</html>
